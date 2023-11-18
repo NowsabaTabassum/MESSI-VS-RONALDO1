@@ -1,0 +1,75 @@
+#header {
+  color: #80e809;
+  text-align: center;
+  border: 3px dotted green;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url(images/play1.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+body {
+  background-image: url(images/play1.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+ .player-info {
+
+border: 4px ridge green;
+width: 170px;
+height: 190px;
+overflow: scroll;
+
+
+ }
+ #ronaldo {
+   margin-top: 60px;
+ }
+
+ #messi {
+   margin-top: 60px;
+ }
+
+a:link {
+  color : red;
+}
+
+a:visited {
+  color: blue;
+
+}
+
+
+a:hover {
+  color:black;
+
+}
+
+h1,h3 {
+  font-family: Arial, sans-sarif;
+  font-size: 20px;
+}
+
+.player-info {
+  font-family: Arial,sans-serif;
+}
+
+
+
+
+
+#header p {
+
+  color: red;
+
+}
+.player-info >p {
+  color: green ;
+}
+#header + div {
+margin-top: 30px;
+
+}
+#header ~ div {
+  margin-top: 50px;
+}
